@@ -9,7 +9,7 @@ let toDos = [];
 
 function deleteToDo(event){
     // console.dir(event.target);  --> find out info inside button
-    console.log(event.target.parentNode);
+    // console.log(event.target.parentNode);
     // console.log(event.target.parentElement); --> same as above
 
     const btn = event.target;
