@@ -1,4 +1,7 @@
 .DS_Store
-.jpg
-.jpeg
-**/images
+.DS_store
+node_modules
+*.jpg
+*.jpeg
+/images/*
+images/*
