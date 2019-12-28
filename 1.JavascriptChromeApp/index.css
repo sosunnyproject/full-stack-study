@@ -1,0 +1,22 @@
+
+
+.clicked {
+    color: grey;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+body {
+    color: #34495e;
+}
+
+.btn {
+    cursor: pointer;
+}
