@@ -8,7 +8,7 @@
 - Vanilla Javascript
 
 ### Timeline
-12/24/19 ~
+12/24/19 ~ 12/29/19
 
 ## 2. NomadCoders: Make a Game with Vanilla Javascript
 ### Main Skills
