@@ -21,5 +21,5 @@
     border: 2px solid #000000;
     background: #fff000;
 
-    animation: sample-anime 2s cubic-bezier(0.49, 0.01, 0, 0.97) infinite;
+    animation: sample-anime 2s cubic-bezier(0.49, 0.01, 0, 0.97) 3;
 }
