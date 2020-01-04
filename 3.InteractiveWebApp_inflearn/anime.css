@@ -10,6 +10,26 @@
         transform: translate(700px, 500px);
     }
 }
+body{
+    background: black;
+    /* css가 아닌 gif 이미지로 하면,
+     투명 png 가 아니라서 백그라운드 칼라 있으면 깨끗하지 못함,
+     애니메이션을 코드로 제어하지 못함. */
+}
+@keyframes spaceship-anime{
+    /* 0% 100% 를 from to 로 대체 가능 */
+    /* 시작은 아래 background: ... 0 0 */
+    /* 300px height 을 150px 정사각형으로 1/2 한다면 total width/2 = 2550px */
+    to {
+        background-position: -5100px 0;
+    }
+}
+.spaceship {
+        width: 300px;
+        height: 300px;
+        background: url('sprite_spaceship.png') no-repeat 0 0 / auto 300px;
+        animation: spaceship-anime 2s infinite reverse steps(17);
+}
 
 .box {
     /* BOX 글씨 중앙정렬 */
