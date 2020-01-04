@@ -27,3 +27,7 @@
     /* forwards: 시작점 -> 끝점. 끝점에서 멈춤. 다시 시작점으로 돌아가서 정지가 아님 */
 
 }
+
+.box:hover {
+    animation-play-state: paused;
+}
