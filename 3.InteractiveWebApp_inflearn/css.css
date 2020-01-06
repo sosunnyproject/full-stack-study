@@ -21,6 +21,7 @@
     transition: 1s;
     transform: rotateY(0deg);
     transform-style: preserve-3d;
+    transform-origin: left; /*문처럼 열리는 효과*/
 }
 
 .card-side {
@@ -34,7 +35,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    backface-visibility: hidden; /*뒷면이 안보이게 처리*/
 }
 
 .card-side-front{
@@ -48,5 +49,5 @@
 }
 
 .world:hover .card{
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 }
