@@ -1,0 +1,15 @@
+.container {
+    display:flex;
+    height: 80vh;
+    background: gray;
+
+    flex-direction: row;
+    justify-content: center; /* space-between */
+    align-items: center; /*flex-start, flex-end, center */
+}
+
+.item{
+    padding: 2em;
+    border: 3px solid black;
+    background: white;
+ }
