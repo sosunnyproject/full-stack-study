@@ -3,13 +3,28 @@
     height: 80vh;
     background: gray;
 
+    }
+
+.item{   
+    flex-grow: 1; /* width 가 일정한게 아니라, 글자를뺀 여백이 1:1:1:1:1*/
+    flex-basis: 0; /* auto: 여백을 조정, 0: 전체 width 가 일정 */
+
+    flex: 1; /* flex-grow, flex-shrink, flex-basis 축약형 */
+
+    font-size: 3rem;
+    border: 3px solid black;
+    background: white;
+
     flex-direction: row;
     justify-content: center; /* space-between */
     align-items: center; /*flex-start, flex-end, center */
-}
 
-.item{
-    padding: 2em;
-    border: 3px solid black;
-    background: white;
  }
+
+/* 이것도 여백의 비율 
+ .item:nth-child(1) { flex-grow: 2;}
+ .item:nth-child(2) { flex-grow: 3;}
+ .item:nth-child(3) { flex-grow: 1;}
+ .item:nth-child(4) { flex-grow: 3;}
+ .item:nth-child(5) { flex-grow: 2;}
+ */
