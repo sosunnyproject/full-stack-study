@@ -12,20 +12,41 @@
 }
 
 .card{
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     margin: 1em;
-
-    font-size: 1.5rem; 
-    /*rem: root인 html font size 가 기준 */
-
     width: 100px;
     height:150px;
-    border-radius: 0.5em;  /* relative size, influenced by rem size*/
-    background: red;
-    
+
     /* world 뿐만 아니라, 카드 각각에 perspective 효과 주기 가능*/
-    transform: perspective(200px) rotateY(45deg);
+    transition: 1s;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.card-side {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    border-radius: 0.5em;  /* relative size, influenced by rem size*/
+    font-size: 1.5rem; /*rem: root인 html font size 가 기준 */    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-side-front{
+    z-index: 1;
+    background: white;
+}
+
+.card-side-back {
+    background: red;
+    transform: rotateY(180deg);
+}
+
+.world:hover .card{
+    transform: rotateY(180deg);
 }
