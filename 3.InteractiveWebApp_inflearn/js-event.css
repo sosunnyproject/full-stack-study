@@ -1,0 +1,28 @@
+.kyo {
+    display: flex;
+}
+
+.special {
+    border: dotted red solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.characters {
+    background: #fff000;
+}
+
+.kyo {
+    width: 100px;
+}
+
+.characters .kyo {
+    display: inline-block;
+}
+
+.special{
+    border: red 10px dashed;
+}
