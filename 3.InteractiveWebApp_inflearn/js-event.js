@@ -1,21 +1,15 @@
-// 1. es6 스타일
-const kyo = document.querySelector('.kyo.c');
-const clickKyoHandler = () => {
-    console.log("clicked");
-    kyo.classList.toggle('special');
-}
 
-kyo.addEventListener('click', clickKyoHandler);
-
-
-// 2. 전역 아닌 지역 변수로 함수 생성
 (function() {
-    const kyo = document.querySelector('.kyo.c');
+    const characters = document.querySelector('.characters');
 
-    function clickKyoHandler2() {
-        console.log("clicked");
-        kyo.classList.toggle('special');
+    function clickKyoHandler2(e) {
+        // 같은 것을 가리킴. 
+        console.log(this);
+        console.log(e.currentTarget);
+
+        console.log(e.target.parentNode.className);
+        
     }
 
-    kyo.addEventListener('click', clickKyoHandler2);
+    characters.addEventListener('click', clickKyoHandler2);
 })();

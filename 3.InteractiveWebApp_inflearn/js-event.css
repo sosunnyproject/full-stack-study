@@ -12,11 +12,15 @@ img {
 }
 
 .characters {
+    display: flex;
     background: #fff000;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .kyo {
     width: 100px;
+    cursor: pointer;
 }
 
 .characters .kyo {
