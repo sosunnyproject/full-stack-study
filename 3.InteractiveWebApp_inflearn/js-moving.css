@@ -32,7 +32,7 @@
     left: 5%;
     bottom: 5%;
     background-image: url('icons/kyo4edit.png');
-    animation-duration: 3s;
+    animation-duration: 10s;
 }
 .kyo:nth-of-type(2) {
     left:5%;
@@ -44,5 +44,5 @@
     left: 5%;
     bottom: 5%;
     background-image: url('icons/kyo3edit.png');
-    animation-duration: 2s;
+    animation-duration: 8s;
 }

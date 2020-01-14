@@ -1,17 +1,16 @@
 (function() {
-    const kyoGroup = document.querySelectorAll('.kyo');
+    // const kyoGroup = document.querySelectorAll('.kyo');
     const stage = document.querySelector('.stage');
 
     function clickHandler(event){
-        console.log(this);
-        console.log(event.currentTarget);
-        // stage.removeChild(this); 
-        
-        console.log(this.parentNode); // find stage component without querySelector definition
-        this.parentNode.removeChild(this);
-    }
+        // 이벤트 위임
+        console.log(event.currentTarget);  // returns div stage
+        console.log(event.target);         // returns specific icon
 
-    for (let i = 0; i < kyoGroup.length; i++) {
-        kyoGroup[i].addEventListener('click', clickHandler);
+        if(event.target.classList.contains('kyo')) {
+            stage.removeChild(event.target);
+        }
+
     }
+    stage.addEventListener('click', clickHandler);
 })();

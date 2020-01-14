@@ -1,14 +1,10 @@
-.kyo {
-    display: flex;
-}
-
-.special {
-    border: dotted red solid;
-}
-
 img {
-    max-width: 100%;
-    height: auto;
+    width: auto;
+    max-height: 200px;
+}
+
+.btn-label{
+    font-size: 15px;
 }
 
 .characters {
@@ -19,6 +15,7 @@ img {
 }
 
 .kyo {
+    display: flex;
     width: 100px;
     cursor: pointer;
 }
