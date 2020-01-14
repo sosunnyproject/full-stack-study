@@ -31,18 +31,18 @@
 .kyo:nth-of-type(1) {
     left: 5%;
     bottom: 5%;
-    background-image: url('icons/kyo4edit.png');
+    background-image: url('../icons/kyo4edit.png');
     animation-duration: 10s;
 }
 .kyo:nth-of-type(2) {
     left:5%;
     bottom: 5%;
-    background-image: url('icons/kyo2edit.png');
+    background-image: url('../icons/kyo2edit.png');
     animation-duration: 4s;
 }
 .kyo:nth-of-type(3) {
     left: 5%;
     bottom: 5%;
-    background-image: url('icons/kyo3edit.png');
+    background-image: url('../icons/kyo3edit.png');
     animation-duration: 8s;
 }
