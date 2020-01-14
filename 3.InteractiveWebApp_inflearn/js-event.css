@@ -3,13 +3,23 @@ img {
     max-height: 200px;
 }
 
+.menu {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30vh;
+    padding: 2em;
+    border-radius: 20px;
+}
+
 .btn-label{
     font-size: 15px;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .icon{
-    pointer-events: none;
+   /* pointer-events: none; */
 }
 
 .characters {

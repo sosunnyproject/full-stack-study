@@ -15,19 +15,14 @@
 const menu = document.querySelector('.menu');
 
 function clickHandler(event) {
-   
-    let button = event.target;
-    /*
-    if(!event.target.classList.contains('menu-btn')){
-        // console.log("not menu-btn");
-        button = event.target.parentNode;
-        // console.log(button);
-        // CSS 조작 방법: pointer-events: none 처리
-    }
-    */
+    // console.log(event.target);
+    // console.log(event.target.dataset.value) // == button.getAttribute('data-value');
 
-    let buttonData = button.getAttribute('data-value');
-    console.log(buttonData);
+    let elem = event.target;
+    while(!elem.classList.contains('menu-btn')) {  // --> menu: gray area 클릭하면 에러남.
+        elem = elem.parentNode;
+    }
+    console.log(elem.dataset.value);
 }
 
 menu.addEventListener('click', clickHandler);
