@@ -5,6 +5,11 @@ img {
 
 .btn-label{
     font-size: 15px;
+    pointer-events: none;
+}
+
+.icon{
+    pointer-events: none;
 }
 
 .characters {

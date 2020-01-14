@@ -15,16 +15,16 @@
 const menu = document.querySelector('.menu');
 
 function clickHandler(event) {
-    // console.log(this);
-    // console.log(event.target.parentNode);
-    // console.log(event.target);
-    // console.log(event.target.getAttribute('data-value'));
+   
     let button = event.target;
+    /*
     if(!event.target.classList.contains('menu-btn')){
         // console.log("not menu-btn");
         button = event.target.parentNode;
         // console.log(button);
+        // CSS 조작 방법: pointer-events: none 처리
     }
+    */
 
     let buttonData = button.getAttribute('data-value');
     console.log(buttonData);
