@@ -14,6 +14,10 @@
 */
 const menu = document.querySelector('.menu');
 
+// 이벤트 위임의 장점
+// addEventListener 를 줄줄이 쓰지 않아도 된다.
+// 동적으로 컨텐츠/html 생성 및 조작할 때 유용하다.
+
 function clickHandler(event) {
     // console.log(event.target);
     // console.log(event.target.dataset.value) // == button.getAttribute('data-value');
@@ -23,6 +27,7 @@ function clickHandler(event) {
     // 단, menu-btn 상위를 클릭하면 에러날 수 있음.
     while(!elem.classList.contains('menu-btn')) {  // --> menu: gray area 클릭하면 에러남.
         elem = elem.parentNode;
+        
         if(elem.nodeName === "BODY") {             // 버튼 밖의 area 를 누르면 아무것도 실행 안하도록.
             elem = null;
             return;
