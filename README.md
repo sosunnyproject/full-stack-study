@@ -29,5 +29,9 @@
 1/2/20 ~ ongoing
 
 ## 4. NomadCoders: Youtube Clone Coding (Beginner)
+### Main Skills
+- HTML, CSS, Vanilla Javascript
+- Heroku, MongoDB, AWS S3, SCSS, AJAX, Node, Express, Webpack
+- https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero
 
 ## 5. NomadCoders: Instagram Clone Coding (Intermediate)
