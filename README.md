@@ -34,4 +34,6 @@
 - Heroku, MongoDB, AWS S3, SCSS, AJAX, Node, Express, Webpack
 - https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero
 
-## 5. NomadCoders: Instagram Clone Coding (Intermediate)
+## 5. NomadCoders: Uber Clone Coding (Intermediate)
+- NodeJS, Typescript, ES6, GraphQL, Twilio, Heroku, Postgresql, OAuth, Google Maps API
+- https://academy.nomadcoders.co/p/nuber-fullstack-javascript-graphql-course
