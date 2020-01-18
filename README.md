@@ -28,6 +28,13 @@
 ### Timeline
 1/2/20 ~ ongoing
 
+## 4. NodeJS 교과서
+### Main Skills
+- NoeJS, express
+- Book: [NODE JS 교과서](https://www.inflearn.com/course/node-js-%EA%B5%90%EA%B3%BC%EC%84%9C)
+- Reference: www.github.com/zerocho/nodejs-book or https://github.com/gilbutITbook/006982
+
+
 ## 4. NomadCoders: Youtube Clone Coding (Beginner)
 ### Main Skills
 - HTML, CSS, Vanilla Javascript
